@@ -1,0 +1,17 @@
+#game-board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%; /* 讓棋盤寬度自動適應 */
+  margin: auto;
+}
+
+.cell {
+  width: 30%; /* 自動調整圖片大小 */
+  height: auto;
+}
+
+.cell img {
+  width: 100%;
+  height: auto;
+}
